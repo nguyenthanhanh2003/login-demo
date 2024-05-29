@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Search Example</title>
+</head>
+
+<body>
+    <a class="primay-btn" href="./login.html">Logout</a>
+    <!-- Tra cứu tìm kiếm -->
+    <div class="search-form">
+        <h2>Tra cứu tìm kiếm</h2>
+        <label for="search-data">Tìm kiếm:</label>
+        <input type="text" id="search-data" name="search" />
+        <button class="primay-btn" onclick="search()">Tìm kiếm</button>
+        <div id="result"></div>
+    </div>
+
+    <!-- Báo cáo thống kê -->
+    <div id="report-form" class="disable">
+        <h2>Báo cáo thống kê</h2>
+        <table>
+            <tr>
+                <th>Tên sinh viên</th>
+                <th>Điểm trung bình</th>
+                <th>Lớp học</th>
+            </tr>
+            <tr>
+                <td>Siêu nhân gao</td>
+                <td>8.5</td>
+                <td>th26.14</td>
+            </tr>
+            <tr>
+                <td>chubedan</td>
+                <td>7.8</td>
+                <td>th26.14</td>
+            </tr>
+            <!-- thêm các dòng báo cáo khác -->
+        </table>
+    </div>
+
+    <!-- Thông báo -->
+    <div id="notification-form" class="disable">
+        <h2>Thông báo</h2>
+        <ul>
+            <li>TSau tất cả, điều ta nhận ra là: Thời gian rồi sẽ chữa lành mọi thứ, dù bạn có muốn hay không. Những cảm xúc tưởng chừng không thể nào phai nhòa, cuối cùng cũng chịu thua trước thời gian. Thời gian tàn nhẫn, nhưng cũng khiến con người nhẹ lòng hơn.
+                Sớm mai tỉnh dậy, mình vẫn là chính mình nhưng không còn đau buồn và ủ dột nữa rồi. Chuyện gì cũng sẽ qua, chỉ cần ta biết buông tay thì tự khắc sẽ hạnh phúc…
+                </li>
+            <li>Nghệ An: Thầy hiệu trưởng bị dotquy ngay trên sân khấu khi đang phát biểu trong ngày trường được đón nhận đạt   chuẩn quốc gia mức độ 2 và kỉ niệm 45 năm ngày thành lập trường 😔</li>
+            <!-- thêm các thông báo khác -->
+        </ul>
+    </div>
+
+    <!-- Danh sách sinh viên -->
+    <div id="student-list" class="disable">
+        <h2>Danh sách sinh viên</h2>
+        <table>
+            <tr>
+                <th>Tên sinh viên</th>
+                <th>Điểm trung bình</th>
+                <th>Lớp học</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Thành Anh</td>
+                <td>8.5</td>
+                <td>Th26.14</td>
+                <td>tanhhhxinhzai@example.com</td>
+            </tr>
+            <tr>
+                <td>Hoàng Cửu Bảo</td>
+                <td>7.8</td>
+                <td>th16.14</td>
+                <td>buonnguqua@example.com</td>
+            </tr>
+            <!-- thêm các dòng danh sách sinh viên khác -->
+        </table>
+    </div>
+
+    <script src="./login.js">
+
+    </script>
+
+</body>
+
+</html>
